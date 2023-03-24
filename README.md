@@ -1,5 +1,5 @@
 # C-basics
-This repo describes the basic concepts of C programming.
+This repo describes the basic concepts of C programming. The content starts from the basics and works up to more complex theoretical concepts.
 
 
 *********************************************************************************************************
