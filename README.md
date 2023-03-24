@@ -1,2 +1,38 @@
 # C-basics
-This repo describes the basic concepts of C programming and analyzes the differences between C and C++.
+This repo describes the basic concepts of C programming.
+
+
+*********************************************************************************************************
+
+The contents of this repo are as follows:
+
+1. Variables and basic concepts.
+2. Preprocessor directives.
+3. The concept and syntax of functions in C.
+4. Basic I/O.
+5. Strings.
+
+6. If statements, binary logic, and conditions.
+7. Flow control using loops.
+8. File I/O.
+9. Pointers, heap memory, and more efficient strings.
+10. Simple sorting algorithms.
+
+11. Unions and structs.
+12. Nodes and the Linked List.
+13. Tree structures.
+14. Advanced sorting.
+15. Non-comparison based sorting.
+
+16. Simple representations of graphs.
+17. (Graphs) The shortest path problem and it's solutions.
+
+18. Introduction to time complexity. 
+19. Introduction to the complexity classes. (P vs. NP)
+
+20. TBD
+
+(ADDITIONAL POTENTIAL CONCEPTS)
+Linux socket programming.
+
+*********************************************************************************************************
