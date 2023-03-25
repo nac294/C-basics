@@ -1,10 +1,10 @@
 # C-basics
-This repo describes the basic concepts of C programming. The content starts from the basics and works up to more complex theoretical concepts.
+## This repo describes the basic concepts of C programming. The content starts from the basics and works up to more complex theoretical concepts.
 
 
 *********************************************************************************************************
 
-The contents of this repo are as follows:
+**The contents of this repo are as follows:**
 
 1. Variables and basic concepts.
 2. Preprocessor directives.
@@ -31,8 +31,7 @@ The contents of this repo are as follows:
 19. Introduction to the complexity classes. (P vs. NP)
 ---------------------------------------------------------------
 20. TBD
----------------------------------------------------------------
-(ADDITIONAL POTENTIAL CONCEPTS)
+*********************************************************************************************************
+(ADDITIONAL POTENTIAL CONCEPTS)\n
 Linux socket programming.
 
-*********************************************************************************************************
