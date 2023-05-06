@@ -17,34 +17,33 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 
 **The contents of this repo are as follows:**
 
-1. [Variables and basic concepts.](https://github.com/nac294/C-basics/blob/main/modules/variables/variables.md)
-2. Preprocessor directives.
-3. The concept and syntax of functions in C.
-4. Basic I/O.
-5. Strings.
+- [Your first program.](https://github.com/nac294/C-basics/blob/main/modules/variables/variables.md)
+- The concept and syntax of functions in C.
+- Basic I/O.
+- Strings.
 ---------------------------------------------------------------
-6. If statements, binary logic, and conditions.
-7. Flow control using loops.
-8. File I/O.
-9. Pointers, heap memory, and more efficient strings.
-10. Simple sorting algorithms.
+- If statements, binary logic, and conditions.  
+- Flow control using loops.  
+- File I/O.  
+- Pointers, heap memory, and more efficient strings.  
+- Simple sorting algorithms.  
 ---------------------------------------------------------------
-11. Unions and structs.
-12. Nodes and the Linked List.
-13. Tree structures.
-14. Advanced sorting.
-15. Non-comparison based sorting.
+- Unions and structs.  
+- Nodes and the Linked List.  
+- Tree structures.  
+- Advanced sorting.  
+- Non-comparison based sorting.  
 ---------------------------------------------------------------
-16. Simple representations of graphs.
-17. (Graphs) The shortest path problem and it's solutions.
+- Simple representations of graphs.  
+- (Graphs) The shortest path problem and it's solutions.  
 ---------------------------------------------------------------
-18. Introduction to time complexity (O & Θ notation) 
-19. Introduction to the complexity classes. (P vs. NP)
+- Introduction to time complexity (O & Θ notation)   
+- Introduction to the complexity classes. (P vs. NP)  
 ---------------------------------------------------------------
-20. TBD
+- TBD  
 *********************************************************************************************************
 (ADDITIONAL POTENTIAL CONCEPTS)
 
-Linux socket programming.
-Parallelization.
+- Linux socket programming.  
+- Parallelization.
 
