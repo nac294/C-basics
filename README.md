@@ -7,7 +7,7 @@
 
 **The contents of this repo are as follows:**
 
-1. Variables and basic concepts.
+1. [Variables and basic concepts.](https://github.com/nac294/C-basics/blob/main/modules/variables/variables.md)
 2. Preprocessor directives.
 3. The concept and syntax of functions in C.
 4. Basic I/O.
