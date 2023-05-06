@@ -27,7 +27,7 @@
 16. Simple representations of graphs.
 17. (Graphs) The shortest path problem and it's solutions.
 ---------------------------------------------------------------
-18. Introduction to time complexity. 
+18. Introduction to time complexity (O & Θ notation) 
 19. Introduction to the complexity classes. (P vs. NP)
 ---------------------------------------------------------------
 20. TBD
@@ -35,4 +35,5 @@
 (ADDITIONAL POTENTIAL CONCEPTS)
 
 Linux socket programming.
+Parallelization.
 
