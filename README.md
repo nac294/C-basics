@@ -1,4 +1,5 @@
 # C-basics
+![Cover image](https://github.com/nac294/C-basics/blob/main/images/cover.png)
 ## This repo describes the basic concepts of C programming. The content starts from the basics and works up to more complex theoretical concepts.
 
 
