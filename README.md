@@ -17,7 +17,7 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 
 **The contents of this repo are as follows:**
 
-- [Your first program.](https://github.com/nac294/C-basics/blob/main/modules/variables/variables.md)
+- [Your first program.](https://github.com/nac294/C-basics/blob/main/modules/firstProgram.md)
 - The concept and syntax of functions in C.
 - Basic I/O.
 - Strings.
