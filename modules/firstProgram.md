@@ -37,7 +37,9 @@ The main function in the hello world program is a function that takes no input a
 ***
 
 The explanation of ``` printf("Hello world!\n") ``` is simple. Printf is a function that prints data to the screen. In this case printf is printing the string literal
-"Hello world!", followed by ```\n``` (a new line).
+"Hello world!", followed by ```\n``` (a new line).  
+
+**_Please note: all statements in the body of C functions end with a ```;```, this is just baisc C syntax._**
 
 ***
 
