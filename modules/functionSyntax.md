@@ -32,10 +32,6 @@ the data type the function returns is specified as int (integer), the input vari
 declaration this function returns and integer and it has a single parameter an integer variable named x.
 ***
 
-## Variables
-Now lets talk about the variables in C. Variables are user-defined names that are associated with a value. They can be used in algebraic computations,
-the can be incremented and decremented, and the value they store can be printed to the screen.  
-
 Let's upgrade the last function. 
  ```C
   #include <stdio.h>
@@ -57,4 +53,6 @@ This is now a complete progam, We are now "calling" the f() function in main.
 In the printf() function you can print a variable by using a ```%``` followed by an initial specifying the type of data. Here ```%d``` indicates printf()
 should print a decimal value. _Note: the first argument to printf() should be a string literal. The other arguments are the variables to be printed._
 By passing the f() function to printf we can print the value it returns.
-in this case f(3) returns 6, and printf prints 3 to the screen.
+in this case f(3) returns 6, and printf prints 3 to the screen.  
+
+Because C is a [procedural-oriented](https://eng.libretexts.org/Courses/Delta_College/CS11_-_Informations_Systems/02%3A_Information_Systems_for_Strategic_Advantage/2.04%3A_Information_Systems_Development/2.4D%3A_Programming_Languages/1.03%3A_Procedural/Object_Oriented) programming language, functions are very important for splitting up problems. Without using functions, you will have large blocks of code in main(), this is not incorrect, but it it almost universally considered bad practice. So far, we have covered some basic example of functions; however, functions in C are useful for more than just arethmatic computations.
