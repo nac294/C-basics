@@ -33,6 +33,7 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 - Nodes and the Linked List.  
 - Tree structures.  
 - Advanced sorting.  
+- Dynamic programming
 - Non-comparison based sorting.  
 ---------------------------------------------------------------
 - Simple representations of graphs.  
