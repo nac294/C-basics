@@ -48,4 +48,6 @@ an exit code and 0 is used to indicate successful termination.
 
 ***
 
-**All C programs have a set of included libraries, all C programs have a main function, and main is where all C programs begin and end. With this basic knowledge in mind, you are ready to start programming.**
+**All C programs have a set of included libraries, all C programs have a main function, and main is where all C programs begin and end. With this basic knowledge in mind, you are ready to start programming.** 
+
+## Next -> [More functions](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
