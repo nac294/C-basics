@@ -20,8 +20,24 @@ void // No datatype
   ```C
   #include <stdio.h>
   
+  float square(float num) { // Function to compute square
+    
+    return num * num;
+  }
+  
+  
   int main() {
   
-    float
+    float pi = 3.14159265;
+    
+    printf("Num before: %f\n", pi);
+    
+    pi = square(pi);
+    printf("Num after: %f\n", pi);  // Alternatively printf("Num after: %f\n", square(pi)); also works if you do not want to store the new value of pi
+    
+    return 0;
+  }
+    
+    
   ```
 </details>  
