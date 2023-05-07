@@ -8,9 +8,11 @@ The first point of interest in C programming is that every program starts with t
 ```C
 #include <stdio.h>
 
+// This is a comment, it does not alter the code.
+// Comments are used to write notes inside code blocks.
 int main() {
 
-  printf("Hello world\n");
+  printf("Hello world\n"); // Print the text to the screen
   
   return 0;
 }
