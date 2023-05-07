@@ -14,6 +14,7 @@ input + 3. If 3 is passed in, the result will be 6. If 27 is passed in, the resu
 ***  
 ### Now, let's write this same function (```f(x) = x + 3```) in C...
 
+  <details>
   <summary>Solution</summary>
   
   ```C
