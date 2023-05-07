@@ -20,7 +20,7 @@ the input + 3. For a few alternative examples, If 2 is passed in, the result wil
   ```C
   #include <stdio.h>
   
-  int f(int x) {
+  int f(int x) { // A function that adds one to the input and returns that value
   
     return x + 3;
   }
