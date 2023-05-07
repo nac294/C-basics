@@ -32,7 +32,7 @@ void // No datatype
     
     printf("Num before: %f\n", pi);
     
-    pi = square(pi);
+    pi = square(pi); // Only necessary if you want to store the squared value
     printf("Num after: %f\n", pi);  // Alternatively printf("Num after: %f\n", square(pi)); also works if you do not want to store the new value of pi
     
     return 0;
