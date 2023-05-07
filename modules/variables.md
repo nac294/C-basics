@@ -13,9 +13,10 @@ void // No datatype
 ```
 
 ## More complex functions
-### A function that prints a floating point number in main, passes it into a function that squares it, and then prints the result.
+Write a function that prints a floating point number in main, passes it into a function that squares it, and then prints the result.
 
-  <summary>Solution</summary>
+  <details>
+  <summary>Solution (Click me!)</summary>
   
   ```C
   #include <stdio.h>
