@@ -9,13 +9,13 @@ f(x): x -> y, x ⊂ S, y ∈ Y
 ```
 In English, a C function takes input that is a proper subset of all valid inputs, it then maps that input onto a valid output. For example, let's look
 at a simple example from algebra. A function ```f(x) = x + 3```, the only parameter of this function is x, and any input to this function will result in
-input + 3. If 3 is passed in, the result will be 6. If 27 is passed in, the result will be 30.
+the input + 3. For a few alternative examples, If 2 is passed in, the result will be 5. If 27 is passed in, the result will be 30.
 
 ***  
 ### Now, let's write this same function (```f(x) = x + 3```) in C...
 
   <details>
-  <summary>Solution</summary>
+  <summary>Solution (Click me!)</summary>
   
   ```C
   #include <stdio.h>
