@@ -27,7 +27,7 @@ input + 3. If 3 is passed in, the result will be 6. If 27 is passed in, the resu
   ```
 </details>  
 
-Note: C is a [strongly-typed language](https://www.techtarget.com/whatis/definition/strongly-typed), so you have to manually specifiy the type of data 
+Note: C is a [strongly-typed language](https://www.techtarget.com/whatis/definition/strongly-typed), so you have to manually specify the type of data 
 that each variable stores, and the type of data each function returns. For example, in the example above, 
 the data type the function returns is specified as int (integer), the input variable x is the same. As specified in the function 
 declaration this function returns and integer and it has a single parameter an integer variable named x.
