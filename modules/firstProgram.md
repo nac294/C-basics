@@ -29,7 +29,7 @@ A main function is required in every C program because every C program begins an
 
 ``` returnType functionName(input) { code } ```   
 
-```int``` is the type of data the funciton returns, or "outputs." ```main``` is the name of the function. ```()``` is where any inputs to the function are defined. ```{}``` is where the acutal code is written.
+```int``` is the type of data the funciton returns, or "outputs." ```main``` is the name of the function. ```()``` is where any inputs to the function are defined. ```{}``` is where the actual code is written.
 
 The main function in the hello world program is a function that takes no input and returns an integer. The code for printing the text is written between the ```{}``` after the function name.  
 
