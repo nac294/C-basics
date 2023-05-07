@@ -51,3 +51,4 @@ Lastly, the ``` return 0; ``` statement is self-explanitory. This is what causes
 **All C programs have a set of included libraries, and all C programs have a main function. Main is where all C programs begin and end. With this basic knowledge in mind, you are ready to start programming.** 
 
 ## Next -> [More functions](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
+## Previous -> [C-basics](https://github.com/nac294/C-basics)
