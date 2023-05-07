@@ -42,3 +42,5 @@ Write a function that prints a floating point number in main, passes it into a f
     
   ```
 </details>  
+
+Previous -> [More functions](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
