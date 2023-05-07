@@ -43,7 +43,7 @@ The explanation of ``` printf("Hello world!\n") ``` is simple. Printf is a funct
 
 ***
 
-Lastly, the ``` return 0; ``` statement is self-eplanitory. This is what causes the main function to return 0 to the operating system's kernel. Main returns
+Lastly, the ``` return 0; ``` statement is self-explanitory. This is what causes the main function to return 0 to the operating system's kernel. Main returns
 an exit code and 0 is used to indicate successful termination.  
 
 ***
