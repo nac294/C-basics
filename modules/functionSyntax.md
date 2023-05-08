@@ -20,7 +20,7 @@ the input + 3. For a few alternative examples, If 2 is passed in, the result wil
   ```C
   #include <stdio.h>
   
-  int f(int x) { // A function that adds one to the input and returns that value
+  int f(int x) { // A function that adds three to the input and returns that value
   
     return x + 3;
   }
@@ -54,7 +54,7 @@ This is now a complete progam, We are now "calling" the f() function in main.
 In the printf() function you can print a variable by using a ```%``` followed by an initial specifying the type of data. Here ```%d``` indicates printf()
 should print a decimal value. _Note: the first argument to printf() should be a string literal. The other arguments are the variables to be printed._
 By passing the f() function to printf we can print the value it returns.
-in this case f(3) returns 6, and printf prints 3 to the screen.  
+in this case f(3) returns 6, and printf prints it to the screen.  
 
 Because C is a [procedural-oriented](https://eng.libretexts.org/Courses/Delta_College/CS11_-_Informations_Systems/02%3A_Information_Systems_for_Strategic_Advantage/2.04%3A_Information_Systems_Development/2.4D%3A_Programming_Languages/1.03%3A_Procedural/Object_Oriented) programming language, functions are very important for splitting up problems. Without using functions, you will have large blocks of code in main(), this is not incorrect, but it it almost universally considered bad practice. So far, we have covered some basic example of functions; however, functions in C are useful for more than just arethmatic computations.  
 
