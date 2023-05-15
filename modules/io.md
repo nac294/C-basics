@@ -64,7 +64,7 @@ int main() {
 ```
 ***
 Using scanf() in the manner works with almost all C variables.
-## Write a program that reads values into an int array with three elements, and gets a string from the user. Afterward, the program should output the message followed by the three values.  
+### Write a program that reads values into an int array with three elements, and gets a string from the user. Afterward, the program should output the message followed by the three values.  
 
 <details>
 <summary>Solution (Click me!)</summary>
@@ -89,7 +89,10 @@ int main() {
   return 0;
 }
 ```
-</details>
+</details>  
+  
+This program only reads a single word from the user because though. If you want to read an entire line, you can use a special function called ```getline()```. This is actually easier, because getline() automatically appends the null terminator unlike scanf(), meaning we can omit the strcat.
+
   
   
   
