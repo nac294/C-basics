@@ -39,4 +39,57 @@ int main() {
   
   return 0;
 }
+```  
+Scanf works with almost all types of variables in C. The syntax of scanf() changes slightly when used with things other than a char array. Notice the use of ```&``` in the example below. this is necessary for reading data into variables. Using ```&``` before a variable indicates that you are accessing the memory address of the variable, not the variable's value. The absense of the ampersand when reading into a C string is because of how array names work. Do not worry about this...
+```C
+#include <stdio.h>
+
+int main() {
+
+  char cStr[50];
+  int intArr[5];
+
+  int test;
+  scanf("%d", &test); // Using &test is necessary here to read into the single variable
+ 
+  scanf("%d", &intArr[0]); // & is nessary when reading into a single array element
+  
+  scanf("%s", cStr); // & is unnecessary when reading into c strings
+  
+  
+  printf("%d %d %s\n", test, intArr[0], cStr); // Print the test variable, the first element of the integer array, and the string
+  
+  return 0;
+}
 ```
+***
+Using scanf() in the manner works with almost all C variables.
+## Write a program that reads values into an int array with three elements, and gets a string from the user. Afterward, the program should output the message followed by the three values.  
+
+<details>
+<summary>Solution (Click me!)</summary>
+  
+```C 
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+  int arr[3];
+  char charBuf[512];
+  
+  scanf("%d %d %d", &arr[0], &arr[1], &arr[2]);
+  scanf("%512s", charBuf); // The use of 512 before the s prevents reading too many characters from the keyboard
+  
+  strcat(charBuf, "\0");
+  
+  printf("%s\n", charBuf);
+  printf("%d %d %d\n", arr[0], arr[1], arr[2]);
+  
+  return 0;
+}
+```
+</details>
+  
+  
+  
