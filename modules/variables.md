@@ -97,10 +97,13 @@ int main() {
   
   // The approach above also works for arrays of every datatype, although it looks slightly different.
   
+  printf("%s\n", cstring2); // You can also print entire C strings with a single statement.
+  printf("%c\n", cstr2[3]); // Or you can print individual elements.
+  
   return 0;
 }
 ```
-  
+
 With this in mind, you now understand C's most standard data container, and you are ready to move on to basic I/O.
   
   
