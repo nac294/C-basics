@@ -21,7 +21,6 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 - [The concept and syntax of functions in C.](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
 - [Variables](https://github.com/nac294/C-basics/blob/main/modules/variables.md)
 - Basic I/O.
-- Strings.
 ---------------------------------------------------------------
 - If statements, binary logic, and conditions.  
 - Flow control using loops.  
