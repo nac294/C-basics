@@ -107,5 +107,5 @@ int main() {
 With this in mind, you now understand C's most standard data container, and you are ready to move on to basic I/O.
   
   
- 
+## Next -> [Basic I/O](https://github.com/nac294/C-basics/blob/main/modules/io.md)
 ## Previous -> [More functions](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
