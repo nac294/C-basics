@@ -15,7 +15,7 @@ void checkNumber(const int num) {
     
     printf("The number if greater than 0\n");
     
-  } else {  // If not do this
+  } else {  // If not, do this
  
     printf("The number is less than or equal to 0\n");
   
@@ -94,7 +94,7 @@ int main() {
 ```  
 
 
-This code is a mess, we can surely clean this up and make it more efficient. Logic in computer derrives heavily from Boolean algebra, this becomes more obvious the more you write practical code. This also means computers represent conditions that are false as 0 and conditions that are true as literally anything else (usually 1). With this in mine let's look at this problem from a mathematical perspective. We can see that the lightswitch problem entails a sinple XOR operation.  
+This code is a mess, we can surely clean this up and make it more efficient. Logic in computers derrives heavily from Boolean algebra, this becomes more obvious the more you write practical code. This also means computers represent conditions that are false as 0 and conditions that are true as literally anything else (usually 1). With this in mine let's look at this problem from a mathematical perspective. We can see that the lightswitch problem entails a sinple [XOR](https://www.vedantu.com/iit-jee/basic-logic-gates) operation.  
 ![](https://github.com/nac294/C-basics/blob/main/images/lightXOR.png)  
 We can simplify this code by using the set of provided logical operators provided in C.
 
