@@ -94,7 +94,7 @@ int main() {
 This program only reads a single word from the user because though. If you want to read an entire line, you can use a special function called ```getline()```. This is actually easier, because getline() automatically appends the null terminator unlike scanf(), meaning we can omit the strcat. We will talk about this function later.  
   
 ## Next -> [Basic Flow Control](https://github.com/nac294/C-basics/blob/main/modules/basicFlowControl.md)
-## Previous -> [More functions](https://github.com/nac294/C-basics](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
+## Previous -> [More functions](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
 
   
   
