@@ -22,7 +22,7 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 - [Variables.](https://github.com/nac294/C-basics/blob/main/modules/variables.md)
 - [Basic I/O.](https://github.com/nac294/C-basics/blob/main/modules/io.md)
 ---------------------------------------------------------------
-- [If statements, binary logic, and conditions.](https://github.com/nac294/C-basics/blob/main/modules/io.md)  
+- [If statements, binary logic, and conditions.](https://github.com/nac294/C-basics/blob/main/modules/basicFlowControl.md)  
 - Flow control using loops.  
 - File I/O.  
 - Pointers, heap memory, and more efficient strings.  
