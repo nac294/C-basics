@@ -21,22 +21,28 @@ Programs written in C are fast, customizable, and [portable](https://developerex
 - [The concept and syntax of functions in C.](https://github.com/nac294/C-basics/blob/main/modules/functionSyntax.md)
 - [Variables.](https://github.com/nac294/C-basics/blob/main/modules/variables.md)
 - [Basic I/O.](https://github.com/nac294/C-basics/blob/main/modules/io.md)
----------------------------------------------------------------
 - [If statements, binary logic, and conditions.](https://github.com/nac294/C-basics/blob/main/modules/basicFlowControl.md)  
 - Flow control using loops.  
+- Programming assignment 1
+---------------------------------------------------------------
 - File I/O.  
 - Pointers, heap memory, and more efficient strings.  
 - Simple sorting algorithms.  
+- Programming assignment 2
 ---------------------------------------------------------------
 - Unions and structs.  
 - Nodes and the Linked List.  
 - Tree structures.  
+- Programming assignment 3
+---------------------------------------------------------------
 - Advanced sorting.  
-- Dynamic programming
 - Non-comparison based sorting.  
+- Dynamic programming
+- Programming assignment 4
 ---------------------------------------------------------------
 - Simple representations of graphs.  
 - (Graphs) The shortest path problem and it's solutions.  
+- Programming assignment 5
 ---------------------------------------------------------------
 - Introduction to time complexity (O & Θ notation)   
 - Introduction to the complexity classes. (P vs. NP)  
