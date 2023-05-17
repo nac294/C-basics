@@ -71,6 +71,10 @@ int main() {
   int SW1 = 0; // Default to off
   int SW2 = 0; // Default to off
   
+  
+  // Get the values of the switches
+  
+  
   if(SW1 == 1) {
   
     if(SW2 == 0) {
@@ -102,5 +106,77 @@ We can simplify this code by using the set of provided logical operators provide
 && // Logical AND, as in, this and that
 || // Logical OR, as in, this or that
 ! // Logical NOT, as in, if this is true, make it false, if it is false, make it true
-```
+```  
+These operators are what allows us to evaluate multiple logic statements at the same time. Let's see a reconstructed example of the previous lightswitch example.
+```C
+#include <stdio.h>
+
+
+void turnLightOn() {
+  printf("Light on\n");
+}
+
+
+void turnLightOff() {
+  printf("Light off\n");
+}
+
+
+int main() {
+
+  int SW1 = 0; // Default to off
+  int SW2 = 0; // Default to off
+  
+  
+  // Get the value of the switches
+  
+  
+  if(SW1 == 1 && SW2 == 1 || SW1 == 0 && SW2 == 0) {
+    turnLightOff();
+  } else {
+    turnLightOn();
+  }
+  
+  return 0;
+}
+```  
+
+The condition used as the condition for the if() block is read in plain English as follows: IF SW1 is equal to 1 AND SW2 is equal to 1, OR SW1 is equal to 0 AND SW2 is equal to 0, turn the light off. If you go through this in your head, this is logically correct and it is simpler than the previous example. There are essentially infinite combinations of logical conditions that you can use to your advantage...  
+The previous example is nice, but there is an even simpler way to solve this problem.
+```C
+#include <stdio.h>
+
+
+void turnLightOn() {
+  printf("Light on\n");
+}
+
+
+void turnLightOff() {
+  printf("Light off\n");
+}
+
+
+int main() {
+
+  int SW1 = 0; // Default to off
+  int SW2 = 0; // Default to off
+  
+  
+  // Get the value of the switches
+  
+  
+  if(SW1 == SW2) {
+    turnLightOff();
+  } else {
+    turnLightOn();
+  }
+  
+  return 0;
+}
+```  
+It is easy to see that the light should always be off if the switches are the same. This is as simple as this program gets; it does not require nested ifs nor does it require complex combinations of logical operators. This is a good example of the fact that there are multiple ways to solve a problem when programming. "When writing an algorithm, you should first think about the easiest, most obvious way to solve the problem; you can worry about optimization after the fact." [-Dr. Eric Hansen](https://web.cse.msstate.edu/~hansen/)  
+
+## Bitwise operations
+  
  
