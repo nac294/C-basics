@@ -229,5 +229,10 @@ int main() {
   return 0;
 }
 ```  
+
+## Exercise  
+
+
+
 ### Next -> []()
 ### Previous -> [Basic I/O](https://github.com/nac294/C-basics/blob/main/modules/io.md)
