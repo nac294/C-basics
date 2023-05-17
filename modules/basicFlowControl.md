@@ -178,31 +178,8 @@ int main() {
 It is easy to see that the light should always be off if the switches are the same. This is as simple as this program gets; it does not require nested ifs nor does it require complex combinations of logical operators. This is a good example of the fact that there are multiple ways to solve a problem when programming. "When writing an algorithm, you should first think about the easiest, most obvious way to solve the problem; you can worry about optimization after the fact." [-Dr. Eric A. Hansen](https://web.cse.msstate.edu/~hansen/)  
 
 ## Bitwise operations
-Let's take a step back from coding for a bit. Understanding how computers "think" is important for coding. Humans count in base 10. each digit goes from 0-9 before it resets, hence 10 values per digit. Whereas, computers count in base 2 (binary), understanding binary is important for understanding logical operations in C. Each digit in binary (bit) can be though of as 2 raised to a power. An example of a 4-bit integer is show below.  
+Let's take a step back from coding for a bit. Understanding how computers "think" is important for coding. Humans count in base 10. each digit goes from 0-9 before it resets back to 0, hence 10 values per digit. Whereas, computers count in base 2 (binary), understanding binary is important for understanding logical operations in C. Each digit in binary (bit) has two possible values, 1 and 0. Each new digit can be though of as the base to a specific power. If we have three base 10 digits, we have 1, 10 and 100, hence 10^0, 10^1, and 10^2. You can also consider this the maximum number of values the digits can represent. With three base 10 digits we can have 10^3 possible values, i.e. 0-999. Binary is no different an example of a 4-bit binary integer is show below.  
 ![](https://github.com/nac294/C-basics/blob/main/images/Binary.PNG)  
-Below you will see a simple binary counters (stolen stright from Chat GPT)  
-
-
-## Binary Counter
-
-| Bit 3 | Bit 2 | Bit 1 | Bit 0 |
-|-------|-------|-------|-------|
-|   0   |   0   |   0   |   0   |
-
-Click the buttons below to increment or decrement the counter.
-
-[++](#increment)  
-
-[--](#decrement)
-
-### Increment
-1. If Bit 0 is 0, set it to 1.
-2. Otherwise, set Bit 0 to 0 and proceed to the next bit.
-3. Repeat steps 1-2 for Bit 1, Bit 2, and Bit 3.
-
-### Decrement
-1. If Bit 0 is 1, set it to 0.
-2. Otherwise, set Bit 0 to 1 and proceed to the next bit.
-3. Repeat steps 1-2 for Bit 1, Bit 2, and Bit 3.
+Give 4 bits, we have 4 base 2 digits, meaning we can represent 2^4 possible values, i.e. 0-15. If you are still confused [this site](https://www.advanced-ict.info/interactive/binary.html) explains the concept of binary perfectly, and it has an interactivae example of a binary counter!
   
  
