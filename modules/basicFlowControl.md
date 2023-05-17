@@ -8,7 +8,8 @@ Let's see a simple example.
 Given a variable, we want to check if it is greater than 0, if so we print "The number is greater than 0", if not, we want to print "The number is less than or equal to 0". We can easily write this code using an if/else statement.
 
 ```C
-void checkNumber(const int num) {
+void checkNumber(const int num) { // Const is a special word that indicates variables cannot be changed.
+// If a variable is passed to a function as a const, its value cannot be changed in the function
 
   // check if the number is greater than 0
   if(num > 0) { // If so, do this
