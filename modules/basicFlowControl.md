@@ -234,5 +234,5 @@ int main() {
 
 
 
-### Next -> []()
+### Next -> [Loops](https://github.com/nac294/C-basics/blob/main/modules/loops.md)
 ### Previous -> [Basic I/O](https://github.com/nac294/C-basics/blob/main/modules/io.md)
